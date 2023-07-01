@@ -1,0 +1,41 @@
+---
+import banner from "../assets/banner.png";
+---
+
+<div class="main">
+    <div class="home-desc">
+        <h1>INVESTING <br />MADE <br />BETTER</h1>
+        <p
+            >Meet the app that gives you the tool , inspiration and support you
+            need to become a better invester.</p
+        >
+        <button class="home-btn">Learn More</button>
+    </div>
+    <img src={banner} alt="Home image" class="banner-img" />
+    
+</div>
+
+<style>
+    .main {
+        display: flex;
+        margin: 7rem;
+    }
+    .home-desc{
+        margin-left: 10rem;
+    }
+    .main h1 {
+        color: white;
+        font-size: 4rem;
+    }
+    .main p{
+        color: #fddb3a;
+        word-spacing: 4px;
+    }
+    .home-btn{
+        width: 10rem;
+        height: 2rem;
+        cursor: pointer;
+        margin-top: 15px;
+        border-radius: 10px;
+    }
+</style>

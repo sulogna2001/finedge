@@ -1,0 +1,38 @@
+---
+import Navbar from "../components/Navbar.astro";
+import Home from "../components/Home.astro";
+import About from "../components/About.astro";
+import Services from "../components/Services.astro";
+import Contact from "../components/Contact.astro";
+---
+
+<div>
+	<Navbar />
+	<section id="home">
+		<Home />
+	</section>
+	<section id="services">
+		<Services />
+	</section>
+	<section id="about">
+		<About />
+	</section>
+	<section id="contact">
+		<Contact />
+	</section>
+</div>
+
+<style>
+	@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+	* {
+		margin: 0;
+		padding: 0;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	body {
+		background: #272727;
+		font-family: "Montserrat", sans-serif;
+	}
+</style>

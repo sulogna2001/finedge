@@ -1,0 +1,46 @@
+---
+import about from "../assets/about.png";
+---
+
+<div class="main">
+    <img src={about} alt="Home image" class="banner-img" />
+
+    <div class="about-desc">
+        <h1>Empowering Financial Solutions for a Digital Future</h1>
+        <p>
+            Welcome to our fintech platform, where we harness cutting-edge
+            technology to revolutionize the way you manage your finances. With
+            our user-friendly interface, advanced security measures, and
+            innovative tools, we empower individuals and businesses to thrive in
+            the ever-evolving digital landscape. Discover a new era of financial
+            possibilities with us.
+        </p>
+        <button class="about-btn">Signup for Free</button>
+    </div>
+</div>
+
+<style>
+    .main {
+        display: flex;
+        margin: 7rem;
+    }
+    .about-desc {
+        margin-left: 10rem;
+    }
+    .main h1 {
+        color: white;
+        font-size: 3rem;
+    }
+    .main p {
+        color: #fddb3a;
+        word-spacing: 4px;
+        font-size: 15px;
+    }
+    .about-btn {
+        width: 10rem;
+        height: 2rem;
+        cursor: pointer;
+        margin-top: 15px;
+        border-radius: 10px;
+    }
+</style>
